@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028346, g: 0.22571373, b: 0.30692244, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -194,7 +194,7 @@ MonoBehaviour:
   navMeshSurface: {fileID: 221455768}
   mazeMaterial: {fileID: 2100000, guid: ed99b8adb9788b1498e9d728080adc84, type: 2}
   playerPrefab: {fileID: 2193286018158602704, guid: 6ebee09621243494e856b6e3d2e450a5, type: 3}
-  enemyPrefab: {fileID: 1201979869556733617, guid: d397adf19e0c4bd4d86c520c2b151143, type: 3}
+  enemyPrefab: {fileID: 0}
   keyPrefab: {fileID: 2377123116285736396, guid: 2a8a493405e1eaa4da602257aa8ebc1e, type: 3}
   exitPrefab: {fileID: 5218757806470125369, guid: 8cdfd1eb9c34fa8429f93160186ae71a, type: 3}
 --- !u!4 &221455770

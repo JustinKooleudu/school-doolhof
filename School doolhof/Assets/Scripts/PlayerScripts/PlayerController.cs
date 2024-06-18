@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using TMPro;
 
 public class PlayerController : MonoBehaviour
@@ -180,6 +181,7 @@ public class PlayerController : MonoBehaviour
                     if (HasKey)
                     {
                         Debug.Log("Exiting the maze...");
+                        SceneManager.LoadScene("MainMenu");
                         hasWon = true; // Player has won
                         DisplayWinUI(); // Show "You win!" message
                         Time.timeScale = 0f; // Freeze the game
