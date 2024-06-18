@@ -184,6 +184,7 @@ public class PlayerController : MonoBehaviour
                         SceneManager.LoadScene("MainMenu");
                         hasWon = true; // Player has won
                         DisplayWinUI(); // Show "You win!" message
+                        SceneManager.LoadScene("MainMenu");
                         Time.timeScale = 0f; // Freeze the game
                     }
                     else
