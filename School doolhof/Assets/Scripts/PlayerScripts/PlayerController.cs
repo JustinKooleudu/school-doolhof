@@ -182,6 +182,7 @@ public class PlayerController : MonoBehaviour
                         Debug.Log("Exiting the maze...");
                         hasWon = true; // Player has won
                         DisplayWinUI(); // Show "You win!" message
+                        SceneManager.LoadScene("MainMenu");
                         Time.timeScale = 0f; // Freeze the game
                     }
                     else
